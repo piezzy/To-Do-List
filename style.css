@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(v904-nunny-012.jpg);
+  background-color: rgb(238, 198, 198);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  background-color: white;
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.wrapper h1 {
+  margin: 0;
+}
+
+.wrapper p {
+  color: gray;
+}
+
+.wrapper ul {
+  margin: 20px 0;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.wrapper ul li {
+  margin: 5px 0;
+  padding: 10px;
+  transition: all 0.3s ease-out;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.wrapper ul li:nth-child(even) {
+  background: #ebe6e6;
+  border-radius: 14px;
+}
+
+.wrapper .completed {
+  text-decoration: line-through;
+}
+
+.wrapper input {
+  margin-top: 10px;
+  width: 450px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: rgb(179, 179, 243);
+}
+
+.wrapper .pretty-button {
+  cursor: pointer;
+}
+
+.wrapper #add-button {
+  background-color: rgb(255, 231, 235);
+  border-color: rgb(255, 231, 235);
+  /* width: 60px; */
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(44, 46, 46);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: -270px;
+}
+
+.wrapper #clear-completed-button {
+  background-color: transparent;
+  border-color: transparent;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.wrapper #control-wrapper {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+}
+
+.wrapper #empty-button {
+  background-color: rgb(250, 64, 64);
+  border-color: rgb(250, 64, 64);
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(44, 46, 46);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+}
+
+.wrapper #save-button {
+  background-color: rgb(148, 245, 148);
+  border-color: rgb(148, 245, 148);
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(44, 46, 46);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+}
